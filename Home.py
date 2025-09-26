@@ -10,6 +10,7 @@ def add_todo():
     functions.write_todos(todos)
     st.session_state["new_todo"]= ""
 
+st.set_page_config(layout="wide")
 
 st.title("Todo App Using Streamlit")
 st.subheader("This is the web based todo app")
