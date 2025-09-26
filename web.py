@@ -24,5 +24,3 @@ for index, todo in enumerate(todos):
         st.rerun()
 
 st.text_input(label="What do you want to do?", placeholder="Enter your task", on_change=add_todo, key="new_todo")
-
-st.session_state
